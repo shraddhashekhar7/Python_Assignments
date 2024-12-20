@@ -1,0 +1,26 @@
+def calc_percent():
+    physics = float(input("Enter marks for Physics: "))
+    chemistry = float(input("Enter marks for Chemistry: "))
+    biology = float(input("Enter marks for Biology: "))
+    mathematics = float(input("Enter marks for Mathematics: "))
+    computer = float(input("Enter marks for Computer: "))
+
+    total = physics + chemistry + biology + mathematics + computer
+    percent = (total / 500) * 100
+
+    if percent >= 90:
+        grade = 'A'
+    elif percent >= 80:
+        grade = 'B'
+    elif percent >= 70:
+        grade = 'C'
+    elif percent >= 60:
+        grade = 'D'
+    elif percent >= 40:
+        grade = 'E'
+    else:
+        grade = 'F'
+
+    print(f"Percentage: {percent:.2f}%  Grade: {grade}")
+
+calc_percent()
