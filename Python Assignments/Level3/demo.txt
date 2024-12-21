@@ -1,0 +1,5 @@
+Hello.
+I'm a file.
+With many lines.
+Count the number of lines.
+Return the count.
